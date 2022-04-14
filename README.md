@@ -28,4 +28,6 @@
 
 ![image](https://user-images.githubusercontent.com/30401731/163455792-27364b88-40c4-4ec2-b703-21349b78b605.png)
 
+> Step 6: It's done, now you can use the script :)
+
 # Version 2: COMING SOON WITH MANY NEW THINGS
