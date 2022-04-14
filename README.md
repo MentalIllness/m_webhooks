@@ -1,4 +1,4 @@
-# Usage:
+# Usage
 
 > Client Side: exports['m_webhooks']:SendWebHook("Title", "Description")
 
