@@ -30,4 +30,6 @@
 
 > Step 6: It's done, now you can use the script :)
 
-# Version 2: COMING SOON WITH MANY NEW THINGS
+# Version 2 is uploaded :)
+
+# Version 3: COMING SOON WITH MANY NEW THINGS
