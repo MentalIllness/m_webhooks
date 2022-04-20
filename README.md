@@ -24,9 +24,9 @@
 
 ![image](https://user-images.githubusercontent.com/30401731/163455595-4d69450c-7c8c-4712-9ea5-c0018ccbe3e5.png)
 
-> Step 5: Go to m_webhooks/server.lua first line and change local WebhookURL = 'Your Webhook URL'
+> Step 5: Go to m_webhooks/shared/config.lua and change Config.WebhookURL = 'Your Webhook URL'
 
-![image](https://user-images.githubusercontent.com/30401731/163455792-27364b88-40c4-4ec2-b703-21349b78b605.png)
+![image](https://user-images.githubusercontent.com/30401731/164302477-7b39b635-db6a-4aa8-8f34-e7cb064b8be5.png)
 
 > Step 6: It's done, now you can use the script :)
 
