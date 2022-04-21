@@ -16,8 +16,10 @@ end)
 RegisterNetEvent('m_webhooks:server:Join')
 AddEventHandler('m_webhooks:server:Join', function(title, description)
 	local xPlayer = ESX.GetPlayerFromId(source)	
-	local title = Config.PlayerJoinTitle
-	local description = xPlayer.getName() .. Config.PlayerJoinMessage
+	local title = Config.Join.PlayerJoinTitle
+	local description = xPlayer.getName() .. Config.Join.PlayerJoinMessage
+
+	WebhookURL = Config.Join.PlayerJoinWebhook
 
 	if WebhookURL ~= '' and title ~= '' and description ~= '' then
 		sendWebHookMessage(title, description)
@@ -32,7 +34,7 @@ end)
 function sendWebHookMessage(title, description)
 	local embed = nil
 
-	if Config.TitlePrefix then
+	if Config.Prefix.TitlePrefix then
 		embed = {
 			{
 				["color"] = Config.WebHookColor,
@@ -40,7 +42,7 @@ function sendWebHookMessage(title, description)
 				["icon_url"] = Config.IconURL,
 				["name"] = Config.WebHookName,
 				},
-				["title"] = Config.TitlePrefixMessage .. '\n ' .. title,
+				["title"] = Config.Prefix.TitlePrefixMessage .. '\n ' .. title,
 				["description"] = '**' .. description ..  '**',
 				["footer"] = {
 					["text"] = os.date(Config.DateFormat),

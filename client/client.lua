@@ -2,7 +2,7 @@ ESX = exports['es_extended']:getSharedObject()
 
 RegisterNetEvent('esx:playerLoaded')
 AddEventHandler('esx:playerLoaded', function(xPlayer)
-    if Config.PlayerJoinLog then
+    if Config.Join.PlayerJoinLog then
         TriggerServerEvent('m_webhooks:server:Join', title, description)
     end
 end)

@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'Mental Illness#0515'
 description 'Simple Discord Webhook Script With Export'
-version '2.0'
+version '2.1'
 
 client_scripts { 'client/*.lua' }
 
