@@ -65,3 +65,28 @@ function sendWebHookMessage(title, description)
 	end
 	PerformHttpRequest(WebhookURL, function(err, text, headers) end, 'POST', json.encode({username = Config.WebHookName, embeds = embed}), {['Content-Type'] = 'application/json'})
 end
+
+AddEventHandler('onResourceStart', function(m_webhooks)
+    if (GetCurrentResourceName() ~= m_webhooks) then
+      return
+    end
+
+print("----------------------------------------------------------------------------------------")
+print("")                        
+print("███╗   ███╗        ██╗    ██╗███████╗██████╗ ██╗  ██╗ ██████╗  ██████╗ ██╗  ██╗███████╗
+print("████╗ ████║        ██║    ██║██╔════╝██╔══██╗██║  ██║██╔═══██╗██╔═══██╗██║ ██╔╝██╔════╝
+print("██╔████╔██║        ██║ █╗ ██║█████╗  ██████╔╝███████║██║   ██║██║   ██║█████╔╝ ███████╗
+print("██║╚██╔╝██║        ██║███╗██║██╔══╝  ██╔══██╗██╔══██║██║   ██║██║   ██║██╔═██╗ ╚════██║
+print("██║ ╚═╝ ██║███████╗╚███╔███╔╝███████╗██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║  ██╗███████║
+print("╚═╝     ╚═╝╚══════╝ ╚══╝╚══╝ ╚══════╝╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝                                                               
+print("")
+print("                        ^1 Author: Mental Illness#0515^0")
+print("----------------------------------------------------------------------------------------")
+
+  end)
+ 
+ 
+
+
+
+
