@@ -30,6 +30,12 @@
 
 > Step 6: It's done, now you can use the script :)
 
-# Version 2 is uploaded :)
+# Version 2:
+
+> Added Player Join Log
+
+# Version 2.1:
+
+> Sort the config.lua and small visual changes to versionListener.lua
 
 # Version 3: COMING SOON WITH MANY NEW THINGS
